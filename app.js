@@ -25,3 +25,9 @@ for(let i=0;i< primArray.length;i++)
 }
 console.log(max);
 
+let sum=0;
+for(let j=0;j< primArray.length;j++)
+{
+    sum+=primArray[j];
+}
+console.log(sum);
