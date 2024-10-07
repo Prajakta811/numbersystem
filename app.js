@@ -15,5 +15,13 @@ if (count==2)
     console.log("Prime Numbers "+bag)
      primArray.push(number[i]);
 }
-
+let max=-Infinity;
+for(let i=0;i< primArray.length;i++)
+{
+   if(primArray[i]>max) 
+   {
+    max=primArray[i];
+   }
+}
+console.log(max);
 
